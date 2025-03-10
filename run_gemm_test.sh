@@ -1,0 +1,1 @@
+mkdir -p build && cd build && cmake .. && make -j gemm_test && ./gemm_benchmark/gemm_test

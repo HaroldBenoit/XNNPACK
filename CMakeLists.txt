@@ -2046,3 +2046,6 @@ IF(XNNPACK_BUILD_BENCHMARKS)
     TARGET_LINK_LIBRARIES(x8-packq-bench PRIVATE kleidiai)
   ENDIF()
 ENDIF()
+
+# Add GEMM benchmark
+add_subdirectory(gemm_benchmark)
